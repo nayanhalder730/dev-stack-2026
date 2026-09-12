@@ -1,11 +1,12 @@
 
 import './App.css'
+import Nav from './component/nav'
 
 function App() {
 
   return (
     <>
-    <h2 className='bg-amber-600'>nayan</h2>
+    <Nav></Nav>
     </>
   )
 }
