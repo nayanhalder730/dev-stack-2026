@@ -2,7 +2,7 @@ import bannerImg from "../assets/banner-stack.png";
 
 export default function Banner() {
   return (
-    <section className="container mx-auto ">
+    <section className="container mx-auto">
       <div className="flex justify-between items-center gap-10 py-20">
         <div className="w-1/2">
           <h2 className="text-4xl font-bold ">

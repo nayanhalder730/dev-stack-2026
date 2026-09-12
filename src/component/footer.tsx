@@ -2,7 +2,7 @@ import footerLogo from "../assets/logo-text.png";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#f8f5f5] text-[#374151] mt-10px">
+    <footer className="w-full bg-[#f8f5f5] text-[#374151] mt-10">
 
 
       <div className="container mx-auto grid grid-cols-1 gap-8 px-6 py-10 sm:grid-cols-2 md:grid-cols-12 md:gap-3">
@@ -13,7 +13,7 @@ export default function Footer() {
             <img
               src={footerLogo}
               alt="Dev Stack"
-              className="w-[85px] sm:w-[90px]"
+              className="w-[85px] "
             />
           </div>
 
