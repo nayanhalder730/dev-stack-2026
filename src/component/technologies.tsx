@@ -12,7 +12,8 @@ export default function Technologies({
 
   return (
     <div>
-      <h2>Total Technologies: {tec.length}</h2>
+        <h3>Technology</h3>
+      <h2>Total: {tec.length}</h2>
     </div>
   );
 }
