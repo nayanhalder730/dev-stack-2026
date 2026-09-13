@@ -38,9 +38,15 @@ export default function TechnologyStack({
                     className="h-5 w-5 object-contain"
                   />
 
-                  <span className="text-xs font-medium text-slate-700">
-                    {technology.name}
-                  </span>
+                  <div>
+                    <p className="text-xs font-medium text-slate-700">
+                      {technology.name}
+                    </p>
+
+                    <p className="text-[8px] text-slate-400">
+                      {technology.category}
+                    </p>
+                  </div>
                 </div>
 
                 <button
